@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Book tours website by Team 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<head >
+    <div class="container-fluid bg-primary-subtle shadow-lg rounded">
+        <div class="row d-flex flex-wrap align-items-center p-1 ps-4 justify-content-between">
+            <div class="d-none d-lg-block col-3 d-flex align-items-center" >
+                
+                <!-- <div class="col-2">
+                    <a href="https://example.com" class="link-image" target="_blank">
+                        <i class="fas fa-home fa-lg"></i>
+                    </a>
+                
+                </div> -->
+
+            
+                <div class="col-12">
+                    <div class="d-flex align-items-center">
+                        <form class="example d-flex align-items-center" action="" >
+                            <button type="submit" class=""><i class="fas fa-search fa-sm"></i></button>
+                            <input type="text" placeholder="어디로 떠날까요?" name="search" class="col-5 d-none d-md-block">
+                            <select name="searchBy" id="" class="col-5 d-none d-md-block ms-2">
+                                <option default>투어 찾기</option>
+                                <option value="title">Seoul</option>
+                                <option value="title">Busan</option>
+                                <option value="title">Jeju</option>
+                                <option value="title">Jeonju</option>
+                                <option value="title">Daegu</option>
+                            </select>
+                        </form>
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+                <video width="" height="" autoplay loop muted class="d-none d-lg-block col-3 rounded-pill text-center" style="height: 60px;">
+                    <source src="article.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            
+            <div class="col-12 col-lg-6" >
+                <div class="w-100 d-flex flex-wrap align-items-center justify-content-end gap-3">
+                    <div class="col-2 text-center">
+                        <a href="/#" class="text-decoration-none">Homepage</a>
+                    </div>
+                    <div class="col-2 text-center">
+                        <a href="/#" class="text-decoration-none">Sign in</a>
+                    </div>
+                    <div class="col-2 text-center">
+                        <a href="/#" class="text-decoration-none">Sign up</a>
+                    </div>
+                    <div class="col-2 text-center">
+                        <a href="/#" class="text-decoration-none">인기 콘텐츠</a>
+                    </div>
+                    <div class="col-2 text-center">
+                        <a href="/#"class="text-decoration-none">About tours</a>
+                    </div>
+                
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</head>
+
+<body class="">
+    <table border="5px">
+        <tr>
+            <th>지역        </th>
+            <th>기간        </th>
+            <th>비용        </th>
+        </tr>
+        <tr>
+            <td>Seoul</td>
+            <td>2박3일</td>
+            <td>15,000,000동~</td>
+        </tr>
+        <tr>
+            <td>Busan</td>
+            <td>3박4일</td>
+            <td>16,900,000동~</td>
+        </tr>
+        <tr>
+            <td>Jeju</td>
+            <td>3박4일</td>
+            <td>12,500,000동~</td>
+        </tr> 
+        <tr>
+            <td>Jeonju</td>
+            <td>1박2일</td>
+            <td>9,999,000동~</td>
+        </tr>
+        <tr>
+            <td>Daegu</td>
+            <td>2박3일</td>
+            <td>11,200,000동~</td>
+        </tr>
+    </table>
+<div class="p-5 container-fluid d-flex justify-content-between">
+    <div class="d-none d-lg-flex col-md-1">
+        <a href="" class="border border-2 border-dark rounded-pill position-fixed text-center p-2
+        text-bg-info" style="width: 70px;">전에</a>
+    </div>
+    
+    <div class="border border-2 border-primary rounded bg-info-subtle
+    d-flex flex-wrap justify-content-center col-12 col-md-9 pt-5 pb-5">
+        <h1 class="p-2 w-75 text-center shadow-md rounded-pill" style="background-color:cornflowerblue; font-family: fantasy;">
+            Anh minh hoa
+        </h1>
+        <div class="w-100 mt-5 ms-5 ps-2">
+            <span class="fw-bold fs-5">Description: </span>
+        </div>
+
+        <div class="w-100 m-5 mt-2 mb-3">
+            <div class="text-bg-light rounded p-3" >Seoul is ...
+            </div>
+        </div>
+        <div class="w-100 ms-5 me-5 mt-3 d-flex justify-content-between align-items-center">
+            <a role="submit" class="btn btn-primary fw-bold">정보 수정</a>
+            <div class="text-bg-light rounded p-2">
+                Built by: <b>Team 2</b>
+            </div>
+        </div>
+        
+    </div>
+    <div class="d-none d-lg-flex col-md-1 justify-content-end">
+        <a href="" class="border border-2 border-dark rounded-pill position-fixed text-center p-2
+        text-bg-info" style="width: 70px;">다음</a>
+    </div>
+</div>
+
+    
+<div class="container-fluid ps-5 pe-5 d-flex justify-content-center">
+    
+    <a href="/#" class="col-12 col-md-9 d-flex align-items-center text-decoration-none
+    border border-2 border-grey mb-5 rounded-pill" style="height: 50px;">
+        <div href="" class="d-flex align-items-center">
+            <i class="fas fa-comment fa-2x text-secondary ms-3 me-2"></i>
+            <span>상품 리뷰 작상하고 포인트 10,000P 받으세요!</span>
+        </div>
+    </a>
+</div>
+<hr>
+<div class="container-fluid ps-5 pe-5 d-flex justify-content-center">
+    <div class="col-12 col-lg-10 d-flex flex-wrap align-items-between border border-2 border-grey mb-5 rounded p-3">
+        <div class="w-100" style="height: 80%;">
+            <h5>구매자: L**o</h5>
+            <div class="w-100 border-top border-secondary border-1">
+                저는 가족과 함께 제주도 갔다 왔어요...
+            </div>
+        </div>
+        <form action="" class="container-fluid d-flex">
+            <div class="col-6 col-md-4 col-lg-3 me-2">
+            <input type="password" id="password" name="password" class="form-control" placeholder="글의 비밀번호">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+            <button type="submit" class="btn btn-primary mb-3">삭제하기</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+</div>
+<div class="container-fluid ps-5 pe-5 d-flex justify-content-center">
+    <div class="col-12 col-lg-10 d-flex flex-wrap align-items-between border border-2 border-grey mb-5 rounded p-3">
+        <div class="w-100" style="height: 80%;">
+            <h5>구매자: H**a</h5>
+            <div class="w-100 border-top border-secondary border-1">
+                저렴한 가격으로 여행갈 수 있으니 너무 좋아요. 강추합니다!
+            </div>
+        </div>
+        <form action="" class="container-fluid d-flex">
+            <div class="col-6 col-md-4 col-lg-3 me-2">
+            <input type="password" id="password" name="password" class="form-control" placeholder="글의 비밀번호">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+            <button type="submit" class="btn btn-primary mb-3">삭제하기</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+</div>
+<div class="container-fluid ps-5 pe-5 d-flex justify-content-center">
+    <div class="col-12 col-lg-10 d-flex flex-wrap align-items-between border border-2 border-grey mb-5 rounded p-3">
+        <div class="w-100" style="height: 80%;">
+            <h5>구매자: L**o</h5>
+            <div class="w-100 border-top border-secondary border-1">
+                 별로예요. 더 이상 구매할 생각없음
+            </div>
+        </div>
+        <form action="" class="container-fluid d-flex">
+            <div class="col-6 col-md-4 col-lg-3 me-2">
+            <input type="password" id="password" name="password" class="form-control" placeholder="글의 비밀번호">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+            <button type="submit" class="btn btn-primary mb-3">삭제하기</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+</div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
